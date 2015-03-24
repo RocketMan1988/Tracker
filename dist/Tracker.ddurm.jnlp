@@ -11,22 +11,22 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Tracker.ddurm.jar" size="81978" download="eager" />
-    <jar href="lib/JavaAPIforKml.jar" size="641934" download="eager" />
-    <jar href="lib/RXTXcomm.jar" size="66628" download="eager" />
-    <jar href="lib/activation.jar" size="129166" download="eager" />
-    <jar href="lib/jaxb-api.jar" size="111252" download="eager" />
-    <jar href="lib/jaxb-core-javadoc.jar" size="497916" download="eager" />
-    <jar href="lib/jaxb-core.jar" size="243230" download="eager" />
-    <jar href="lib/jaxb-impl-javadoc.jar" size="1545267" download="eager" />
-    <jar href="lib/jaxb-impl.jar" size="1182898" download="eager" />
-    <jar href="lib/jaxb-jxc-javadoc.jar" size="72938" download="eager" />
-    <jar href="lib/jaxb-jxc.jar" size="122379" download="eager" />
-    <jar href="lib/jaxb-xjc-javadoc.jar" size="1617828" download="eager" />
+    <jar href="Tracker.ddurm.jar" size="82030" download="eager" />
+    <jar href="lib/JavaAPIforKml.jar" size="641933" download="eager" />
+    <jar href="lib/RXTXcomm.jar" size="66627" download="eager" />
+    <jar href="lib/activation.jar" size="129165" download="eager" />
+    <jar href="lib/jaxb-api.jar" size="111253" download="eager" />
+    <jar href="lib/jaxb-core-javadoc.jar" size="497918" download="eager" />
+    <jar href="lib/jaxb-core.jar" size="243226" download="eager" />
+    <jar href="lib/jaxb-impl-javadoc.jar" size="1545266" download="eager" />
+    <jar href="lib/jaxb-impl.jar" size="1182897" download="eager" />
+    <jar href="lib/jaxb-jxc-javadoc.jar" size="72936" download="eager" />
+    <jar href="lib/jaxb-jxc.jar" size="122377" download="eager" />
+    <jar href="lib/jaxb-xjc-javadoc.jar" size="1617829" download="eager" />
     <jar href="lib/jaxb-xjc.jar" size="3737214" download="eager" />
-    <jar href="lib/jaxb1-impl.jar" size="1162570" download="eager" />
-    <jar href="lib/jsr173_1.0_api.jar" size="50053" download="eager" />
-    <jar href="lib/marineapi-0.7.0.jar" size="110429" download="eager" />
+    <jar href="lib/jaxb1-impl.jar" size="1162568" download="eager" />
+    <jar href="lib/jsr173_1.0_api.jar" size="50052" download="eager" />
+    <jar href="lib/marineapi-0.7.0.jar" size="110428" download="eager" />
   </resources>
 <security>
   <all-permissions/>

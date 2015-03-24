@@ -386,7 +386,7 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                              <Component id="CommandBox" min="-2" pref="181" max="-2" attributes="0"/>
+                              <Component id="CommandBox" min="-2" pref="237" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jButton9" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
@@ -606,14 +606,15 @@
             <Component class="javax.swing.JComboBox" name="CommandBox">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="7">
-                    <StringItem index="0" value="Command 1: SD Unmount"/>
+                  <StringArray count="8">
+                    <StringItem index="0" value="Command 1: Commnd List"/>
                     <StringItem index="1" value="Command 2: REBOOT"/>
                     <StringItem index="2" value="Command 3: Balloon Mode Activate"/>
                     <StringItem index="3" value="Command 4: Balloon Mode Deactivate"/>
                     <StringItem index="4" value="Command 5: WatchDog Timer Disable"/>
                     <StringItem index="5" value="Command 6: WatchDog Timer Enable"/>
-                    <StringItem index="6" value="Command 7: No Op Test Command"/>
+                    <StringItem index="6" value="Command 7: SD Unmount"/>
+                    <StringItem index="7" value="Command 8: No Op Test Command"/>
                   </StringArray>
                 </Property>
               </Properties>

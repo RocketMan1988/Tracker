@@ -398,7 +398,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        CommandBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Command 1: SD Unmount", "Command 2: REBOOT", "Command 3: Balloon Mode Activate", "Command 4: Balloon Mode Deactivate", "Command 5: WatchDog Timer Disable", "Command 6: WatchDog Timer Enable", "Command 7: No Op Test Command" }));
+        CommandBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Command 1: Commnd List", "Command 2: REBOOT", "Command 3: Balloon Mode Activate", "Command 4: Balloon Mode Deactivate", "Command 5: WatchDog Timer Disable", "Command 6: WatchDog Timer Enable", "Command 7: SD Unmount", "Command 8: No Op Test Command" }));
         CommandBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CommandBoxActionPerformed(evt);
@@ -421,7 +421,7 @@ public class GUI extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
-                        .addComponent(CommandBox, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(CommandBox, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton9)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -935,7 +935,7 @@ Color newColor = colorPicker.showDialog(
             
             case 5: 
             communicator.writeData('!');
-            communicator.writeData('7');
+            communicator.writeData('6');
             communicator.writeDataNewLine();
             this.txtLog.append("\n");
             break;
@@ -947,9 +947,16 @@ Color newColor = colorPicker.showDialog(
             this.txtLog.append("\n");            
             break;
             
+            case 7: 
+            communicator.writeData('!');
+            communicator.writeData('8');
+            communicator.writeDataNewLine();
+            this.txtLog.append("\n");            
+            break;
+                            
             default:
             communicator.writeData('!');
-            communicator.writeData('7');
+            communicator.writeData('8');
             communicator.writeDataNewLine();
             this.txtLog.append("\n");    
 

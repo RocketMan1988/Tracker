@@ -1,0 +1,21 @@
+#################
+## JAVA
+#################
+
+
+# Mobile Tools for Java (J2ME)
+build/
+Jars/
+nbproject/
+Test/
+Google/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+MainKML.kml
+MyTestFile.txt
+netWorkLink.kml
+New Text Document.txt
+testing.txt
+testing2.txt
+manifest.mf
